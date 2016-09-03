@@ -1,16 +1,21 @@
+$(document).ready(function(){
 
+var wins = 0;
+var losses =0;
+var playerChoice;
 
 
 
 
 var Questions = [
 
-	1 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
+	 {
+		questionNumber : 1;
+		question : 'What is the capitol of Texas?';
+		choice1 : 'Denver';
+		choice2 : 'Dallas';
+		choice3 : 'Austin';
+		choice4 : 'Abilene';
 	    },
 
 	2 : {
@@ -83,13 +88,42 @@ var Questions = [
 		choice2 : 'text';
 		choice3 : 'text';
 		choice4 : 'text';
-	    },                            
-
-
-
-
-
-
-
-
+	    },                           
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})
