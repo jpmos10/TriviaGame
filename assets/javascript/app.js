@@ -7,91 +7,55 @@ var playerChoice;
 
 
 
-var Questions = [
+var questions = [
 
 	 {
-		questionNumber : 1;
-		question : 'What is the capitol of Texas?';
-		choice1 : 'Denver';
-		choice2 : 'Dallas';
-		choice3 : 'Austin';
-		choice4 : 'Abilene';
+		 
+		question : 'Which character from beavis and Butthead has their own show?';
+		choices: [{
+                  text: 'Beavis',
+                  correct: false
+                 },
+                 {
+                   text: 'Butthead',
+                   correct: false
+                 },
+                  {
+                 text: 'Daria',
+                 correct: true
+                 {
+                   text: 'None of the above',
+                   correct: false
+                 },
+                }]
+
+        question : 'How long were Jerry Seinfeld and his pals sentenced in the series finale?';
+		choices: [{
+                  text: 'Ten',
+                  correct: false
+                 },
+                 {
+                   text: 'Five',
+                   correct: false
+                 },
+                  {
+                 text: 'Life',
+                 correct: false
+                 {
+                   text: 'One',
+                   correct: true
+                 },
+                }]
+
+
+
 	    },
 
-	2 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    },
-	    
-	3 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    }, 
-	    
-	4 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    },
-	    
-	5 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    },
-	    
-	6 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    },  
-
-	7 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    },
-	    
-	 8 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    },
-	    
-	 9 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    },
-
-	 10 : {
-		question : 'Ask Question Here?';
-		choice1 : 'text';
-		choice2 : 'text';
-		choice3 : 'text';
-		choice4 : 'text';
-	    },                           
+	                           
 ]
 
-
+function newGame();
+	
 
 
 
